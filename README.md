@@ -19,6 +19,14 @@ By default, this plugin will truncate branch names to 20 characters total. Also 
 
 So, with the default settings, a branch like `pt-custom-list-doesnt-return-results-if-there-are-values-for-hire-date-96306202` will be displayed as `pt-custom-li…96306202`.
 
+## Todo
+
+- [ ] Allow defining a custom seperator using an option (would replace `…`)
+- [ ] Reformat options in README
+- [ ] Add example regexes for common branch naming conventions
+- [ ] Release a new version
+- [ ] zsh plugin auto updates / update notification?
+
 
 ## Options
 
