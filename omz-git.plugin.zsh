@@ -35,9 +35,9 @@ function git_prompt_info() {
 
       length=${#ref}
       suffixStart=`expr ${length} - ${suffixLength} + 1`
-      separatorLength=3 #3 dots...
+      separatorLength=1 # 3 dots ascii "…"
       nameEnd=`expr ${maxLength} - ${suffixLength} - ${separatorLength}`
-      ref="$(command echo ${ref} | cut -c 1-${nameEnd})...$(command echo ${ref} | cut -c ${suffixStart}-)"
+      ref="$(command echo ${ref} | cut -c 1-${nameEnd})…$(command echo ${ref} | cut -c ${suffixStart}-)"
     fi
 
     echo "$ZSH_THEME_GIT_PROMPT_PREFIX${ref}$(parse_git_dirty)$ZSH_THEME_GIT_PROMPT_SUFFIX"
