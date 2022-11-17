@@ -6,7 +6,7 @@ that shortens the branch name usefully in order to keep the prompt short(er).
 To install this plugin, you can use the following command:
 
 ```
-sh -c "$(curl -fsSL https://raw.github.com/tnwinc/codebrauer/master/install-plugin.sh)"
+sh -c "$(curl -fsSL https://raw.github.com/codebrauer/omz-git/master/install-plugin.sh)"
 ```
 
 You can then add the plugin to your `.zshrc`. Alternatively, you can clone the repo into your `~/.oh-my-zsh/custom/plugins` directory and do the same.
