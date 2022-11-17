@@ -24,6 +24,7 @@ So, with the default settings, a branch like `pt-custom-list-doesnt-return-resul
 - [ ] Allow defining a custom seperator using an option (would replace `…`)
 - [ ] Reformat options in README
 - [ ] Add example regexes for common branch naming conventions
+- [ ] Find a new name & rename the project
 - [ ] Release a new version
 - [ ] zsh plugin auto updates / update notification?
 
