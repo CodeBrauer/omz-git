@@ -3,6 +3,8 @@
 This is an [Oh-My-Zsh](https://github.com/robbyrussell/oh-my-zsh) plugin 
 that shortens the branch name usefully in order to keep the prompt short(er).
 
+Was forked from an abandoned project: https://github.com/tnwinc/omz-git
+
 To install this plugin, you can use the following command:
 
 ```
